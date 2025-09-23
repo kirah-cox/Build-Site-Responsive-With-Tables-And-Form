@@ -63,6 +63,12 @@
     background-color: #ECF5E7;
 }
 
+@media (max-width: 75rem) {
+  .three-blocks {
+    flex-direction: column;
+  }
+}
+
 .block-header{
     display: flex;
     justify-content: center;
